@@ -64,7 +64,7 @@ public class CustomFallback extends AbstractOIDCProtocolMapper implements OIDCAc
 
     @Override
     public String getDisplayType() {
-        return "Get user attribute or use fallback";
+        return "User attribute or hardcoded fallback";
     }
 
     @Override

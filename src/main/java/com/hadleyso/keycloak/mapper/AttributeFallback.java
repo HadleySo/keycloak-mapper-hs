@@ -64,7 +64,7 @@ public class AttributeFallback extends AbstractOIDCProtocolMapper implements OID
 
     @Override
     public String getDisplayType() {
-        return "Get user attribute or use fallback";
+        return "User attribute with fallback attribute";
     }
 
     @Override
@@ -74,7 +74,7 @@ public class AttributeFallback extends AbstractOIDCProtocolMapper implements OID
 
     @Override
     public String getHelpText() {
-        return "Pull existing claim or use fallback value";
+        return "Pull existing claim or use another claim if unavailable";
     }
 
     protected void setClaim(IDToken token, ProtocolMapperModel mappingModel, UserSessionModel userSession) {
