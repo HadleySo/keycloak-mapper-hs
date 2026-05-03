@@ -1,2 +1,3 @@
 com.hadleyso.keycloak.mapper.UPNMapper
 com.hadleyso.keycloak.mapper.CustomFallback
+com.hadleyso.keycloak.mapper.AttributeFallback
