@@ -26,7 +26,7 @@ public class CustomFallback extends AbstractOIDCProtocolMapper implements OIDCAc
         targetAttribute.setName("TARGET_ATTRIBUTE");
         targetAttribute.setLabel("Target Attribute");
         targetAttribute.setHelpText("Existing user attribute");
-        targetAttribute.setType(ProviderConfigProperty.STRING_TYPE);
+        targetAttribute.setType(ProviderConfigProperty.USER_PROFILE_ATTRIBUTE_LIST_TYPE);
         targetAttribute.setRequired(true);
         configProperties.add(targetAttribute);
 

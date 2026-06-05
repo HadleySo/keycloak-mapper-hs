@@ -26,7 +26,7 @@ public class AttributeFallback extends AbstractOIDCProtocolMapper implements OID
         targetAttribute.setName("TARGET_ATTRIBUTE");
         targetAttribute.setLabel("Target Attribute");
         targetAttribute.setHelpText("Existing user attribute");
-        targetAttribute.setType(ProviderConfigProperty.STRING_TYPE);
+        targetAttribute.setType(ProviderConfigProperty.USER_PROFILE_ATTRIBUTE_LIST_TYPE);
         targetAttribute.setRequired(true);
         configProperties.add(targetAttribute);
 
@@ -34,7 +34,7 @@ public class AttributeFallback extends AbstractOIDCProtocolMapper implements OID
         fallbackValue.setName("FALLBACK_ATTRIBUTE");
         fallbackValue.setLabel("Fallback Attribute");
         fallbackValue.setHelpText("If first user attribute is empty or null, other attribute to fallback on");
-        fallbackValue.setType(ProviderConfigProperty.STRING_TYPE);
+        fallbackValue.setType(ProviderConfigProperty.USER_PROFILE_ATTRIBUTE_LIST_TYPE);
         fallbackValue.setRequired(true);
         configProperties.add(fallbackValue);
 

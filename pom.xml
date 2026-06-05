@@ -6,7 +6,7 @@
   <groupId>com.hadleyso.keycloak</groupId>
   <artifactId>keycloak-mapper-hs</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 
   <name>Keycloak Custom Claims Mappers</name>
   <description>Map custom user attributes to OIDC claims</description>
